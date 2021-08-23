@@ -1,0 +1,34 @@
+[WARNING] The model name 'casts' was recognized as a plural, using the singular 'cast' instead. Override with --force-plural or setup custom inflection rules for this noun before running the generator.
+      invoke  active_record
+      create    db/migrate/20210823080552_create_casts.rb
+      create    app/models/cast.rb
+      invoke    test_unit
+      create      test/models/cast_test.rb
+      create      test/fixtures/casts.yml
+      invoke  resource_route
+       route    resources :casts
+      invoke  scaffold_controller
+      create    app/controllers/casts_controller.rb
+      invoke    erb
+      create      app/views/casts
+      create      app/views/casts/index.html.erb
+      create      app/views/casts/edit.html.erb
+      create      app/views/casts/show.html.erb
+      create      app/views/casts/new.html.erb
+      create      app/views/casts/_form.html.erb
+      invoke    resource_route
+      invoke    test_unit
+      create      test/controllers/casts_controller_test.rb
+      create      test/system/casts_test.rb
+      invoke    helper
+      create      app/helpers/casts_helper.rb
+      invoke      test_unit
+      invoke    jbuilder
+      create      app/views/casts/index.json.jbuilder
+      create      app/views/casts/show.json.jbuilder
+      create      app/views/casts/_cast.json.jbuilder
+      invoke  assets
+      invoke    scss
+      create      app/assets/stylesheets/casts.scss
+      invoke  scss
+   identical    app/assets/stylesheets/scaffolds.scss

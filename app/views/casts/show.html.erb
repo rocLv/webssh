@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @cast.title %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @cast.url %>
+</p>
+
+<%= link_to 'Edit', edit_cast_path(@cast) %> |
+<%= link_to 'Back', casts_path %>
